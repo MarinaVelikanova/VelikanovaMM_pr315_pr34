@@ -1,0 +1,5 @@
+gen = input()
+a = len(gen)
+b = gen.lower().count('g')
+d = gen.lower().count('c')
+print((b + d) / a *100)
